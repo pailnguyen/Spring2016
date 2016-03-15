@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>http://pailnguyen.github.io/Spring2016/</loc>
+  <lastmod>2016-03-15T04:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pailnguyen.github.io/Spring2016/2016/</loc>
+  <lastmod>2016-03-15T04:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pailnguyen.github.io/Spring2016/archive.html</loc>
+  <lastmod>2016-03-15T04:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pailnguyen.github.io/Spring2016/categories/</loc>
+  <lastmod>2016-03-15T04:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pailnguyen.github.io/Spring2016/galleries/</loc>
+  <lastmod>2016-03-15T04:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pailnguyen.github.io/Spring2016/listings/</loc>
+  <lastmod>2016-03-15T04:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pailnguyen.github.io/Spring2016/posts/hello-world/</loc>
+  <lastmod>2016-03-15T04:23:00Z</lastmod>
+ </url>
+</urlset>
