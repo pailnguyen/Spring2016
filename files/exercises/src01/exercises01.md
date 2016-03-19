@@ -1,3 +1,13 @@
+---
+layout: page
+title:  "Exercises 01"
+author: paulnguyen
+categories: exercises
+---
+
+# Problem 3
+
+{% highlight python %}
 # get user input and save it to seq
 seq = input("Enter a DNA sequence: ")
 
@@ -20,3 +30,4 @@ for base in seq:
 
 # print all the counts on one line
 print(count_A, count_G, count_C, count_T)
+{% endhighlight %}
