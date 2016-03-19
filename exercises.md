@@ -12,5 +12,5 @@ Please do not post your solutions to these exercises online. You may email your 
 
 
 
-[ex01]: /Spring2016/files/exercises/exercises01.pdf/
-[ex01samp]: /Spring2016/files/exercises/src01/counting_dna_nucleotides.py.html/
+[ex01]: /Spring2016/files/exercises/exercises01.pdf
+[ex01samp]: /Spring2016/files/exercises/src01/counting_dna_nucleotides.py.html

@@ -20,10 +20,10 @@ These slides may be updated without warning in the future.
 
 
 
-[installing_python_3]: http://www.diveintopython3.net/installing-python.html/
+[installing_python_3]: http://www.diveintopython3.net/installing-python.html
 
 
 
 
-[slides01]: /Spring2016/files/slides/slides01.pdf/
+[slides01]: /Spring2016/files/slides/slides01.pdf
 
