@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 Sitemap: http://pailnguyen.github.io/Spring2016/sitemapindex.xml
 
 User-Agent: *
 Host: pailnguyen.github.io
+=======
+User-agent: *
+Disallow: /
+>>>>>>> master
