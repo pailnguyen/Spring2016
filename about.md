@@ -19,6 +19,12 @@ Teaching Assistants (available by email):
 - Farzam Farahani (farahani [dot] farzam /at/ utexas [dot] edu)
 - Eric Wei (ericwei /at/ utexas [dot] edu)
 
+<div class="flex-gallery">
+<div class="flex-gallery-item"><figure><img src="/Spring2016/images/paul.jpg"><figcaption><span class="figure-name">Paul Nguyen</span></figcaption></figure></div>
+<div class="flex-gallery-item"><figure><img src="/Spring2016/images/farzam.jpg"><figcaption><span class="figure-name">Farzam Farahani</span></figcaption></figure></div>
+<div class="flex-gallery-item"><figure><img src="/Spring2016/images/eric.jpg"><figcaption><span class="figure-name">Eric Wei</span></figcaption></figure></div>
+</div>
+
 Syllabus: [here][syllabus]
 
 Collaborating with peers is encouraged.
