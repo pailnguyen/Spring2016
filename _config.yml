@@ -1,8 +1,8 @@
 # Site title
-title: Crossing
+title: Fundamentals of Python (Aptamer Stream)
 
 # Tagline below the site title on post list pages
-tagline: Thoughts, stories and ideas.
+tagline: Spring 2016
 
 # A description of your site for social meta tag, search engines, and feed.xml
 description:
@@ -14,7 +14,7 @@ url: "https://pailnguyen.github.io"
 baseurl: "/Spring2016"
 
 # The site cover image on the home page
-image: /Spring2016/images/site-image.jpg
+image: /Spring2016/images/rainbow.jpg
 
 # The shortname for your Disqus site to enable comments
 disqus_shortname:
@@ -28,15 +28,20 @@ nav:
   - title: "Home"
     url:   "/Spring2016/"
   - title: "About the Mini-Course"
-    url:   "/about/"
-
+    url:   "/Spring2016/about/"
+  - title: "Exercises"
+    url:   "/Spring2016/exercises/"
+  - title: "Readings and Slides"
+    url:   "/Spring2016/readings_slides/"
+  - title: "External Resources"
+    url:   "/Spring2016/external_resources/"
 
 # The links in the site footer
 footer_links:
   #- title: "RSS"
   #  url:   "/crossing-jekyll/feed.xml"
-  #- title: "GitHub"
-  #  url:   "https://github.com/barepants/crossing-jekyll"
+  - title: "This site uses Crossing for Jekyll."
+    url:   "https://github.com/barepants/crossing-jekyll"
 
 
 # Author information
@@ -44,14 +49,14 @@ authors:
   johndoe:
     name: John Doe
     website: https://github.com/barepants
-    bio: An awesome bio # Author info at bottom of post only shows if bio exists
-    avatar: /crossing-jekyll/images/avatar.jpg
+    bio: # An awesome bio # Author info at bottom of post only shows if bio exists
+    avatar: /Spring2016/images/avatar.jpg
   lewiscarroll:
     name: Lewis Carroll
   paulnguyen:
     name: Paul Nguyen
     website: http://pailnguyen.github.io
-    bio: #
+    bio: The one and only.
     avatar: /Spring2016/images/paul.jpg
 
 
