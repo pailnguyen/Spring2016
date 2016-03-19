@@ -1,0 +1,94 @@
+\documentclass[symmetric]{assignment}
+
+\usepackage[super]{nth}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{subfig}
+\usepackage{verbatim}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{sourcecodepro}
+\usepackage{heuristica} % old-style figures
+\usepackage[utopia,vvarbb,bigdelims]{newtxmath}
+
+\usepackage{helvet} % to match R plots
+
+
+\title{\upshape\scshape\textosf{3 $\cdot$ Exercises}}
+\author{\upshape\scshape\textosf{Paul Nguyen $\cdot$ SDS 325H}}
+\date{\upshape\textosf{February \nth{15}, 2016}}
+
+\begin{comment} % from the verbatim package
+
+% Figures
+
+\refstepcounter{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{figure_file}
+	
+\sffamily\textbf{Figure \ref{fig:figlabel}}: Descriptions
+\label{fig:figlabel}
+\end{figure}
+
+% Side-by-side figures
+\refstepcounter{figure}
+\begin{figure}
+\centering
+\sffamily
+
+\subfloat[Scatterplot of meal prices vs. food rating ($r$ = 0.525).]{\includegraphics[width=.45\textwidth]{foodScore}} 
+\hfill
+\subfloat[Scatterplot of meal prices vs. atmosphere rating ($r$ = 0.219).]{\includegraphics[width=.45\textwidth]{feelScore}}
+\linebreak
+
+\sffamily\textbf{Figure \ref{fig:scatterplots}}: Scatterplot of meal prices vs. ratings.
+\label{fig:scatterplots}
+\end{figure}
+
+% Tables
+
+\refstepcounter{table}
+\begin{table}
+\centering
+\textsf{\textbf{Table \ref{tab:lollapalooza}}: Table representing the counts of bands that attended Lollapalooza between 2008 and 2011.}
+\linebreak
+
+\begin{tabular}{l*{2}{r}}
+	\hline
+	& \multicolumn{2}{c}{Lollapalooza} \\
+	& Did Not Attend ($n = 800$) & Attended ($n = 438$)\\
+	\hline
+	Did Not Attend ACL & 719 & 361 \\
+	Attended ACL       & 81  & 77 \\
+	\hline
+\end{tabular}
+
+\label{tab:lollapalooza}
+\end{table}
+
+% Math
+
+Here, we see that the relative risk of a band attending ACL for bands that attended Lollapalooza is
+
+\[\text{Relative risk} = \frac{77/(77+361)}{81/(81+719)} = \frac{77/438}{81/800} = 1.736\]
+
+\noindent indicating that a band that attends Lollapalooza is 1.736 times more likely to attend ACL that year than a band that does not attend Lollapalooza.
+
+\end{comment}
+
+\begin{document}
+\maketitle
+
+\section{\bfseries\upshape(1) Warm-ups}
+\subsection{(A) Which bands come to ACL Fest?}
+
+
+\subsection{(B) How many calories do people eat at Chipotle?}
+
+
+\section{\bfseries\upshape(2) Exploring multivariate data}
+
+
+\section{\bfseries\upshape(3) The dangers of engine emissions and naïve polynomial regression}
+
+\end{document}

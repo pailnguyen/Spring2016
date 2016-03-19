@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{seq} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Enter a DNA sequence: \PYGZdq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} get user input and save it to seq}
+\PYG{n}{count\PYGZus{}A} \PYG{o}{=} \PYG{l+m+mi}{0} \PYG{c+c1}{\PYGZsh{} four variables to store the base counts}
+\PYG{n}{count\PYGZus{}C} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{n}{count\PYGZus{}G} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{n}{count\PYGZus{}T} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+\PYG{k}{for} \PYG{n}{base} \PYG{o+ow}{in} \PYG{n}{seq}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} loop through all the bases in the sequence}
+    \PYG{k}{if} \PYG{n}{base} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}A\PYGZdq{}}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} if we find an A}
+        \PYG{n}{count\PYGZus{}A} \PYG{o}{+=} \PYG{l+m+mi}{1} \PYG{c+c1}{\PYGZsh{} then update our count of A\PYGZsq{}s}
+    \PYG{k}{if} \PYG{n}{base} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}C\PYGZdq{}}\PYG{p}{:}
+        \PYG{n}{count\PYGZus{}C} \PYG{o}{+=} \PYG{l+m+mi}{1}
+    \PYG{k}{if} \PYG{n}{base} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}G\PYGZdq{}}\PYG{p}{:}
+        \PYG{n}{count\PYGZus{}G} \PYG{o}{+=} \PYG{l+m+mi}{1}
+    \PYG{k}{if} \PYG{n}{base} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}T\PYGZdq{}}\PYG{p}{:}
+        \PYG{n}{count\PYGZus{}T} \PYG{o}{+=} \PYG{l+m+mi}{1}
+
+\PYG{k}{print}\PYG{p}{(}\PYG{n}{count\PYGZus{}A}\PYG{p}{,} \PYG{n}{count\PYGZus{}C}\PYG{p}{,} \PYG{n}{count\PYGZus{}G}\PYG{p}{,} \PYG{n}{count\PYGZus{}T}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} print all the counts on one line}
+\end{Verbatim}

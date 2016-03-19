@@ -1,0 +1,179 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[super]{nth}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{subfig}
+\usepackage{verbatim}
+\usepackage[utf8]{inputenc}
+% \usepackage[default]{sourcecodepro}
+\usepackage{mathpazo}
+% \usepackage{heuristica} % old-style figures
+\usepackage[utopia,vvarbb,bigdelims]{newtxmath}
+
+\usepackage{helvet} % to match R plots
+
+\usepackage{xcolor}
+
+\usepackage{minted}
+\usemintedstyle{solarizedlight}
+\definecolor{bg}{RGB}{253,246,227} % Solarized Light background color
+\usepackage{inconsolata}
+
+\setlength\parindent{0pt}
+
+\title{Exercises $\cdot$ 01}
+\author{\textit{Fundamentals of Python (Aptamer Stream)}}
+\date{\textit{Due April \nth{1}, 2016}}
+
+\begin{comment} % from the verbatim package
+
+% Figures
+
+\refstepcounter{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{figure_file}
+	
+\sffamily\textbf{Figure \ref{fig:figlabel}}: Descriptions
+\label{fig:figlabel}
+\end{figure}
+
+% Side-by-side figures
+\refstepcounter{figure}
+\begin{figure}
+\centering
+\sffamily
+
+\subfloat[Scatterplot of meal prices vs. food rating ($r$ = 0.525).]{\includegraphics[width=.45\textwidth]{foodScore}} 
+\hfill
+\subfloat[Scatterplot of meal prices vs. atmosphere rating ($r$ = 0.219).]{\includegraphics[width=.45\textwidth]{feelScore}}
+\linebreak
+
+\sffamily\textbf{Figure \ref{fig:scatterplots}}: Scatterplot of meal prices vs. ratings.
+\label{fig:scatterplots}
+\end{figure}
+
+% Tables
+
+\refstepcounter{table}
+\begin{table}
+\centering
+\textsf{\textbf{Table \ref{tab:lollapalooza}}: Table representing the counts of bands that attended Lollapalooza between 2008 and 2011.}
+\linebreak
+
+\begin{tabular}{l*{2}{r}}
+	\hline
+	& \multicolumn{2}{c}{Lollapalooza} \\
+	& Did Not Attend ($n = 800$) & Attended ($n = 438$)\\
+	\hline
+	Did Not Attend ACL & 719 & 361 \\
+	Attended ACL       & 81  & 77 \\
+	\hline
+\end{tabular}
+
+\label{tab:lollapalooza}
+\end{table}
+
+% Math
+
+Here, we see that the relative risk of a band attending ACL for bands that attended Lollapalooza is
+
+\[\text{Relative risk} = \frac{77/(77+361)}{81/(81+719)} = \frac{77/438}{81/800} = 1.736\]
+
+\noindent indicating that a band that attends Lollapalooza is 1.736 times more likely to attend ACL that year than a band that does not attend Lollapalooza.
+
+% Minted
+
+\inputminted[bgcolor=bg,linenos,obeytabs=true,samepage=true,tabsize=4]{python}{src01/test.py}
+
+
+% \renewcommand{\theFancyVerbLine}{
+%   \sffamily\textcolor[rgb]{0.5,0.5,0.5}{\scriptsize\arabic{FancyVerbLine}}}
+
+\end{comment}
+
+\begin{document}
+\maketitle
+\textit{For each problem, example input is given as well as the expected output for that input (shown in bold). The estimated difficulty levels range from easier ($\star$) to harder ($\star\star\star$). Advanced problems ($\oplus$) and problem parts are optional and may require you to read ahead on your own. You may work with others to complete these exercises, but you should try tackling the problems alone first. Additionally, you should type up your programs independently (please don't copy and paste from anyone/anywhere) and be prepared to answer questions about how your program works in case I ask you to explain the logic. This is for your own benefit! For Problem 3, I am providing you with my solution so that this might help you come up with your own solutions for the other problems. Questions 3 and 4 are based on Rosalind exercises.}
+
+\section{\upshape Miles to kilometers $\bigstar$}
+Write a program that will allow the user to input a number of miles; the program will then convert that to kilometers. As the description implies, you should use the \texttt{input()} and \texttt{print()} functions. For convenience, there are about 1.60934 km in 1 mi. Note: to output your result successfully with units, you will probably need to convert your numeric result from \texttt{float} to \texttt{str} (string) by using the \texttt{str()} function with the result as the argument.
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\texttt{How many miles? 5.4}
+
+\texttt{\bfseries That is 8.690436 km.}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\section{\upshape Combining DNA sequences $\bigstar$}
+Imagine that you receive two DNA sequence parts that should be considered as one sequence. Your job is to \emph{concatenate} the parts into one sequence. Your program should allow the user to input two strings (entered one at a time); the program should then print out the combined string after the user submits his/her input.
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\texttt{Enter the first sequence part: ATCGTTAACGTT}
+
+\texttt{Enter the second sequence part: GATCGTACTAGC}
+
+\texttt{\bfseries ATCGTTAACGTTGATCGTACTAGC}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+Advanced: figure out how to let the user enter both sequence parts in one go (i.e., one part, followed by a space, followed by the other part). You might want to read up on the \texttt{split()} and \texttt{join()} methods. Alternatively, you can read about the \texttt{replace()} method instead for a different way to solve this.
+
+\section{\upshape Counting DNA nucleotides $\bigstar\bigstar$}
+For this program, take a DNA sequence and print out the counts of A, G, C, and T (in that order).
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\texttt{Enter a DNA sequence: ATCGATGCTTGAGC}
+
+\texttt{\bfseries 3 4 3 4}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+My solution:
+
+\inputminted[bgcolor=bg,linenos,obeytabs=true,samepage=true,tabsize=4]{python}{src01/counting_dna_nucleotides.py}
+
+Advanced: write a program that does this using only 2 lines (read up on the \texttt{count()} method for strings). Yes, this program can be written in just two lines in Python!
+
+\section{\upshape Calculating GC content $\bigstar\bigstar$}
+Write a program that will allow the user to input four integers; these are the counts of adenine, guanine, cytosine, and thymine found on a DNA molecule (the counts will be input in that order). \emph{GC content} is the percentage of nucleobases on a DNA molecule that are guanine or cytosine. Knowing this, you should be able to have your program print out the GC content of this molecule. Hint: perhaps a \texttt{for} loop and checks for equality (with \texttt{==}) would be useful.
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\texttt{Enter counts of A, G, C, T: 2 3 4 5}
+
+\texttt{\bfseries The GC content is 50.0\%.}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\section{\upshape A guessing game $\bigoplus$}
+This is a common introductory programming exercise since it ties together many basic concepts, such as \texttt{if} statements and \texttt{while} loops. I hope that we will get to \texttt{while} loops in class; if not, please read about them on your own.
+Your program should select a number between 1 and 100 inclusive (you can hardcode this number in your program) that is secret to the user. The user should then input a number between 1 and 100. The program will tell the user if his/her guess was too low or too high (less than or greater than the secret number). The user can then guess again. If the user guesses the number correctly, then the program will output a message indicating that the user has won the game.
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\texttt{Guess the secret number.}
+
+\texttt{Input your guess: 75}
+
+\texttt{\bfseries Too high.}
+
+\texttt{Input your guess: 50}
+
+\texttt{\bfseries Too low.}
+
+\texttt{Input your guess: 61}
+
+\texttt{\bfseries You win!}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+Bonus: To make this more interesting on subsequent playthroughs, randomly generate the secret number by \texttt{import}ing the \texttt{random} module and using the \texttt{random.randint()} function.
+
+\end{document}

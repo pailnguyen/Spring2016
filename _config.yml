@@ -46,15 +46,8 @@ footer_links:
 
 # Author information
 authors:
-  johndoe:
-    name: John Doe
-    website: https://github.com/barepants
-    bio: # An awesome bio # Author info at bottom of post only shows if bio exists
-    avatar: /Spring2016/images/avatar.jpg
-  lewiscarroll:
-    name: Lewis Carroll
   paulnguyen:
-    name: Paul Nguyen
+    name: Paul Nguyen # Author info at bottom of post only shows if bio exists
     website: http://pailnguyen.github.io
     bio: The one and only.
     avatar: /Spring2016/images/paul.jpg
@@ -64,10 +57,10 @@ authors:
 
 # Fallback og:image when no page.image or site.image. Facebook requires image be
 # at least 200 x 200 pixels.
-og_image:
+# og_image:
 
 # twitter:site. Your Twitter username without "@"
-twitter_site:
+# twitter_site:
 
 
 # http://jekyllrb.com/docs/pagination/

@@ -27,7 +27,6 @@ We will be using [IDLE][idle] (included with a typical Python installation) as o
 
 
 
-
-[syllabus]: /Spring2016/syllabus.pdf/
+[syllabus]: /Spring2016/files/syllabus.pdf/
 [idle]: https://en.wikipedia.org/wiki/IDLE_(Python)/
 
