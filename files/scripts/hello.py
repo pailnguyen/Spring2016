@@ -1,8 +1,8 @@
-vowels = ["A", "E", "I", "O", "U"]
+x = 20
 
-string = "facetiously"
-vowel_count = 0
-for char in string.upper():
-	if char in vowels:
-		vowel_count += 1
-print("The number of vowels is: " + str(vowel_count))
+if x > 5 or x < 21:
+    print("Success 1")
+if x < 5 or x < 21:
+    print("Success 2")
+if x < 5 or x > 21:
+    print("Success 3")

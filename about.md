@@ -31,6 +31,8 @@ Collaborating with peers is encouraged.
 
 We will be using [IDLE][idle] (included with a typical Python installation) as our development environment in class so that everyone will be on the same page, but you are welcome to use a different text editor.
 
+Many images on this site are from [Unsplash][unsplash].
+
 [syllabus]: /Spring2016/files/syllabus.pdf
 [idle]: https://en.wikipedia.org/wiki/IDLE_(Python)/
-
+[unsplash]: https://unsplash.com/
