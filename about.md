@@ -10,7 +10,7 @@ Welcome to the course website! I will post readings and slides here, so check ba
 # Course Information
 Meeting Times: Fridays, 2 PM - 3 PM (starting after spring break)
 
-Location: TBA
+Location: PAI 2.14 (lab)
 
 Instructor: Paul Nguyen (paul_nguyen /at/ utexas [dot] edu; contact by email/Messenger)
 
@@ -25,7 +25,7 @@ Teaching Assistants (available by email):
 <div class="flex-gallery-item"><figure><img src="/Spring2016/images/eric.jpg"><figcaption><span class="figure-name">Eric Wei</span></figcaption></figure></div>
 </div>
 
-Syllabus: [here][syllabus]
+Syllabus: [here][syllabus].
 
 Collaborating with peers is encouraged.
 
