@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.24)  18 MAR 2016 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.24)  25 MAR 2016 15:33
 entering extended mode
 **./exercises01.tex
 (exercises01.tex
@@ -980,18 +980,18 @@ LaTeX Font Info:    Font shape `OT1/zi4/bx/n' in size <12> not available
 
 {C:/Users/Paul/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o "
-_minted-exercises01/98A43AAA1C8A435CC211CB7F87A89EFF0BDC79E0E52D8A03B4CB557BE96
+_minted-exercises01/8D09857C8C97DABB581D8821572047B80BDC79E0E52D8A03B4CB557BE96
 606B2.pygtex" "src01/counting_dna_nucleotides.py" )...executed.
 
 
-(_minted-exercises01/98A43AAA1C8A435CC211CB7F87A89EFF0BDC79E0E52D8A03B4CB557BE9
+(_minted-exercises01/8D09857C8C97DABB581D8821572047B80BDC79E0E52D8A03B4CB557BE9
 6606B2.pygtex
 
 LaTeX Font Warning: Font shape `OT1/zi4/m/it' undefined
 (Font)              using `OT1/zi4/m/n' instead on input line 2.
 
 ) [2]
-runsystem(del "_minted-exercises01\B796E7E310FAA4529233C1C15014768E0BDC79E0E52D
+runsystem(del "_minted-exercises01\98A43AAA1C8A435CC211CB7F87A89EFF0BDC79E0E52D
 8A03B4CB557BE96606B2.pygtex")...executed.
 
  [3] (exercises01.aux)
@@ -1002,7 +1002,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  8889 strings out of 493634
  136157 string characters out of 3143747
- 236297 words of memory out of 3000000
+ 237297 words of memory out of 3000000
  12072 multiletter control sequences out of 15000+200000
  63823 words of font info for 154 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1017,7 +1017,7 @@ txfonts/txsy.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsya.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on exercises01.pdf (3 pages, 115301 bytes).
+Output written on exercises01.pdf (3 pages, 115757 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
