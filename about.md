@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  "About the Mini-Course"
+title:  "About"
 author: paulnguyen
 categories: about
 image: /Spring2016/images/galaxy.jpg
 ---
 
-Welcome to the course website! I will post readings and slides here, so check back once in a while (and perhaps bookmark the site for easy access).
+Welcome to the mini-course website! I will post readings and slides here, so check back once in a while (and perhaps bookmark the site for easy access).
 
 # Course Information
 Syllabus: [here][syllabus].

@@ -27,7 +27,7 @@ google_analytics_tracking_id:
 nav:
   - title: "Home"
     url:   "/Spring2016/"
-  - title: "About the Mini-Course"
+  - title: "About"
     url:   "/Spring2016/about/"
   - title: "Exercises"
     url:   "/Spring2016/exercises/"

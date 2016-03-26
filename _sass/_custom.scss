@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Open Dyslexic";
+  src: url("/Spring2016/fonts/OpenDyslexic3-Regular.ttf")
+}
+
+body.readable {
+  font-family: "Open Dyslexic";
+}
+
+nav.readable a {
+  font-size: 9px!important;
+}
+
+.site-nav-list .button a span {
+    background: -webkit-linear-gradient(top, lightgray, darkgray);
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+
 figure {
   position: relative;
   margin: 0;
@@ -8,31 +30,36 @@ figure {
     padding: 0 !important;
   }
 }
+
 figcaption {
   position: absolute;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   width: 100%;
   height: 50px;
   bottom: 0px;
   line-height: 50px;
   text-align: center;
 }
+
 .flex-gallery {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
+
 .flex-gallery-item {
-    border-radius: 50px;
-  width: 225px;
-  height: 225px;
+  border-radius: 30px;
+  border: 1px solid rgb(128, 128, 128);
+  width: 200px;
+  height: 200px;
   overflow: hidden;
 }
+
 .figure-name {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .flex-gallery > div {
     width: 175px;
     height: 175px;
