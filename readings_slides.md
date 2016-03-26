@@ -34,6 +34,7 @@ Readings labeled Week X should be read before Week X's lecture as preparation. I
 These slides may be updated without warning in the future.
 
 - [Slides 01][slides01]
+- Slides 02: not available yet
 
 
 
