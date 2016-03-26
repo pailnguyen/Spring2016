@@ -17,7 +17,12 @@ Readings labeled Week X should be read before Week X's lecture as preparation. I
 - [Week 1: Conditionals and recursion][tp_conditionals], sections 5.1-5.7
 - [Week 1: Iteration, only sections 7.1 and 7.2][tp_iteration_7.1]
 - [Week 2: Functions][tp_functions], sections 3.1-3.12
-- [Week 2: Lists][tp_lists], sections 10.1-10.6, 10.8-10.13 (section 10.7 is optional)
+- [Week 2: Iteration][tp_iteration_7.3], sections 7.3-7.4, 7.7
+- [Week 2: Strings][tp_strings], sections 8.1-8.12
+
+{% comment %}
+- [Week 3: Lists][tp_lists], sections 10.1-10.6, 10.8-10.13 (section 10.7 is optional)
+{% endcomment %}
 
 # Slides
 
@@ -36,10 +41,9 @@ These slides may be updated without warning in the future.
 [tp_conditionals]: http://greenteapress.com/thinkpython2/html/thinkpython2006.html
 [tp_iteration_7.1]: http://greenteapress.com/thinkpython2/html/thinkpython2008.html#toc74
 [tp_functions]: http://greenteapress.com/thinkpython2/html/thinkpython2004.html
-[tp_lists]: http://greenteapress.com/thinkpython2/html/thinkpython2011.html
+[tp_iteration_7.3]: http://greenteapress.com/thinkpython2/html/thinkpython2008.html#toc76
 [tp_strings]: http://greenteapress.com/thinkpython2/html/thinkpython2009.html
-
-
+[tp_lists]: http://greenteapress.com/thinkpython2/html/thinkpython2011.html
 
 
 [slides01]: /Spring2016/files/slides/slides01.pdf
