@@ -32,6 +32,9 @@ We will be using [IDLE][idle] (included with a typical Python installation) as o
 
 Many images on this site are from [Unsplash][unsplash].
 
+You can click on the "OpenDyslexic Font" button in the navigation menu to change the font to OpenDyslexic, a "new open source font created to increase readability for readers with dyslexia".
+
 [syllabus]: /Spring2016/files/syllabus.pdf
 [idle]: https://en.wikipedia.org/wiki/IDLE_(Python)/
 [unsplash]: https://unsplash.com/
+[opendyslexic]: http://opendyslexic.org/

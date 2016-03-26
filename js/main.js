@@ -1,3 +1,5 @@
+// Written by Paul Nguyen
+
 function loadFontPrefs() {
 	var body = document.body;
 	var nav = document.getElementsByClassName("site-nav")[0];

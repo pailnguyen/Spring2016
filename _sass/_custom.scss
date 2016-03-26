@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Open Dyslexic";
+  font-family: "OpenDyslexic";
   src: url("/Spring2016/fonts/OpenDyslexic3-Regular.ttf")
 }
 
 body.readable {
-  font-family: "Open Dyslexic";
+  font-family: "OpenDyslexic";
 }
 
 nav.readable a {
@@ -12,12 +12,11 @@ nav.readable a {
 }
 
 .site-nav-list .button a span {
-    background: -webkit-linear-gradient(top, lightgray, darkgray);
-    border: 1px solid rgb(128, 128, 128);
+    border: 2px solid #aaa;
     border-radius: 5px;
-    color: white;
     cursor: pointer;
     padding: 2px;
+    text-transform: none;
 }
 
 figure {
