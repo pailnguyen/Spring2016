@@ -8,7 +8,7 @@ image: /Spring2016/images/jellyfish.jpg
 
 # Readings
 
-Readings labeled Week X should be read before Week X's lecture as preparation. I am trying to assign for readings only the most relevant sections of the book, but the entire book is great and you should consider reading unassigned material if you would like to learn more. Each individual section is fairly short. [Here][thinkpython] is a link to the Think Python HTML index of topics (a table of contents).
+Readings labeled Week X should be read before Week X's lecture as preparation. I am trying to assign only the most relevant sections of the book as readings, but the entire book is great and you should consider reading unassigned material if you would like to learn more. Each individual section is fairly short. [Here][thinkpython] is a link to the Think Python HTML index of topics (a table of contents).
 
 ## Week 0
 - [Installing Python 3][installing_python_3]
