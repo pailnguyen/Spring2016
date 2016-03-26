@@ -3,11 +3,14 @@ layout: page
 title:  "About the Mini-Course"
 author: paulnguyen
 categories: about
+image: /Spring2016/images/galaxy.jpg
 ---
 
 Welcome to the course website! I will post readings and slides here, so check back once in a while (and perhaps bookmark the site for easy access).
 
 # Course Information
+Syllabus: [here][syllabus].
+
 Meeting Times: Fridays, 2 PM - 3 PM (starting after spring break)
 
 Location: PAI 2.14 (lab)
@@ -24,10 +27,6 @@ Teaching Assistants (available by email):
 <div class="flex-gallery-item"><figure><img src="/Spring2016/images/farzam.jpg"><figcaption><span class="figure-name">Farzam Farahani</span></figcaption></figure></div>
 <div class="flex-gallery-item"><figure><img src="/Spring2016/images/eric.jpg"><figcaption><span class="figure-name">Eric Wei</span></figcaption></figure></div>
 </div>
-
-Syllabus: [here][syllabus].
-
-Collaborating with peers is encouraged.
 
 We will be using [IDLE][idle] (included with a typical Python installation) as our development environment in class so that everyone will be on the same page, but you are welcome to use a different text editor.
 
