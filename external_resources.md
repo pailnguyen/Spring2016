@@ -3,6 +3,7 @@ layout: page
 title:  "External Resources and Extra"
 author: paulnguyen
 categories: external_resources fun_stuff
+image: /Spring2016/images/ski_lift.jpg
 ---
 
 <h2>External Resources</h2>
@@ -10,7 +11,7 @@ categories: external_resources fun_stuff
 <h3>Beginner Resources</h3>
 <ul>
 <li><a href="https://ehmatthes.github.io/pcc/cheatsheets/README.html">Beginner's Python Cheat Sheets</a> (PDF format)</li>
-<li><a href="https://www.codecademy.com/">Codecademy</a></li>
+<li><a href="https://www.codecademy.com/learn/python">Codecademy</a></li>
 <li><a href="http://interactivepython.org/courselib/static/thinkcspy/index.html">How to Think Like a Computer Scientist: Learning with Python, Interactive Edition</a></li>
 <li><a href="http://opentechschool.github.io/python-beginners/en/">Introduction to Programming with Python</a></li>
 <li><a href="https://launchpadlibrarian.net/165489933/PracticalProgrammingPython2014.pdf">Practical Programming in Python</a></li>
