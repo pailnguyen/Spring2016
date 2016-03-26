@@ -3,9 +3,10 @@ layout: page
 title:  "Exercises"
 author: paulnguyen
 categories: exercises
+image: /Spring2016/images/clouds.jpg
 ---
 
-Please do not post your solutions to these exercises online. You may email your code to me if you want me to check it.
+Please do not post your solutions to these exercises online. You may email your code to me if you want me to check it. Have fun!
 
 - [Exercises 01][ex01]
 - [Exercises 01 Problem 3 Example Solution][ex01samp]
