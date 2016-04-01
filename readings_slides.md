@@ -34,7 +34,7 @@ Readings labeled Week X should be read before Week X's lecture as preparation. I
 These slides may be updated without warning in the future.
 
 - [Slides 01][slides01]
-- Slides 02: not available yet
+- [Slides 02][slides02]
 
 
 
@@ -53,4 +53,5 @@ These slides may be updated without warning in the future.
 
 
 [slides01]: /Spring2016/files/slides/slides01.pdf
+[slides02]: /Spring2016/files/slides/slides02.pdf
 
