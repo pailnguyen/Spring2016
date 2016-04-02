@@ -10,6 +10,7 @@ Please do not post your solutions to these exercises online. You may email your 
 
 - [Exercises 01][ex01]: due April 8th
 - [Exercises 01 Problem 3 Example Solution][ex01samp]
+- [Exercises 02]: due April 22nd
 
 
 
