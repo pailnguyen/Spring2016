@@ -1,0 +1,153 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[super]{nth}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{subfig}
+\usepackage{verbatim}
+\usepackage[utf8]{inputenc}
+% \usepackage[default]{sourcecodepro}
+\usepackage{mathpazo}
+% \usepackage{heuristica} % old-style figures
+\usepackage[utopia,vvarbb,bigdelims]{newtxmath}
+
+\usepackage{helvet} % to match R plots
+
+\usepackage{xcolor}
+
+\usepackage{minted}
+\usemintedstyle{solarizedlight}
+\definecolor{bg}{RGB}{253,246,227} % Solarized Light background color
+\usepackage{inconsolata}
+
+\setlength\parindent{0pt}
+
+
+\begin{comment} % from the verbatim package
+
+% Figures
+
+\refstepcounter{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{figure_file}
+	
+\sffamily\textbf{Figure \ref{fig:figlabel}}: Descriptions
+\label{fig:figlabel}
+\end{figure}
+
+% Side-by-side figures
+\refstepcounter{figure}
+\begin{figure}
+\centering
+\sffamily
+
+\subfloat[Scatterplot of meal prices vs. food rating ($r$ = 0.525).]{\includegraphics[width=.45\textwidth]{foodScore}} 
+\hfill
+\subfloat[Scatterplot of meal prices vs. atmosphere rating ($r$ = 0.219).]{\includegraphics[width=.45\textwidth]{feelScore}}
+\linebreak
+
+\sffamily\textbf{Figure \ref{fig:scatterplots}}: Scatterplot of meal prices vs. ratings.
+\label{fig:scatterplots}
+\end{figure}
+
+% Tables
+
+\refstepcounter{table}
+\begin{table}
+\centering
+\textsf{\textbf{Table \ref{tab:lollapalooza}}: Table representing the counts of bands that attended Lollapalooza between 2008 and 2011.}
+\linebreak
+
+\begin{tabular}{l*{2}{r}}
+	\hline
+	& \multicolumn{2}{c}{Lollapalooza} \\
+	& Did Not Attend ($n = 800$) & Attended ($n = 438$)\\
+	\hline
+	Did Not Attend ACL & 719 & 361 \\
+	Attended ACL       & 81  & 77 \\
+	\hline
+\end{tabular}
+
+\label{tab:lollapalooza}
+\end{table}
+
+% Math
+
+Here, we see that the relative risk of a band attending ACL for bands that attended Lollapalooza is
+
+\[\text{Relative risk} = \frac{77/(77+361)}{81/(81+719)} = \frac{77/438}{81/800} = 1.736\]
+
+\noindent indicating that a band that attends Lollapalooza is 1.736 times more likely to attend ACL that year than a band that does not attend Lollapalooza.
+
+% Minted
+
+\inputminted[bgcolor=bg,linenos,obeytabs=true,samepage=true,tabsize=4]{python}{src01/test.py}
+
+
+% \renewcommand{\theFancyVerbLine}{
+%   \sffamily\textcolor[rgb]{0.5,0.5,0.5}{\scriptsize\arabic{FancyVerbLine}}}
+
+\end{comment}
+
+
+
+\title{Exercises $\cdot$ 02}
+\author{\textit{Fundamentals of Python (Aptamer Stream)}}
+\date{\textit{Due April \nth{22}, 2016}}
+
+\begin{document}
+\maketitle
+\textit{For each problem, example input is given as well as the expected output for that input (shown in bold). The estimated difficulty levels range from easier ($\star$) to harder ($\star\star\star$). Advanced problems ($\oplus$) and problem parts are optional and may require you to read ahead on your own. You may work with others to complete these exercises, but you should try tackling the problems alone first. Additionally, you should type up your programs independently (please don't copy and paste from anyone/anywhere) and be prepared to answer questions about how your program works in case I ask you to explain the logic. This is for your own benefit!}
+
+\section{\upshape How many vowels? $\bigstar$}
+Write a program that will take a string from the user and print out the number of times a vowel shows up in the string (any vowel can be counted more than once if it appears more than once). Make sure to look out for a mix of capital and lowercase letters!
+
+
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\texttt{What's your string? Affordable condominiums.}
+
+\texttt{\bfseries There are 9 vowel occurrences.}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+Bonus: print out all the vowels in the string, but only print out each vowel at most once.
+
+\section{\upshape Looking for motifs in DNA $\bigstar$}
+Your program for this problem should take a DNA sequence and determine whether it contains the sequence \texttt{TATAAA} (which you might recognize).
+
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\texttt{Enter the sequence: ATCGTATGAACGTT}
+
+\texttt{\bfseries This does not contain TATAAA.}
+
+\texttt{Enter the sequence: ATCGTATAAACGTT}
+
+\texttt{\bfseries This contains TATAAA.}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+
+\section{\upshape Palindromes $\bigstar\bigstar$}
+Your program should accept a string as input and print out whether the string is a palindrome. For reference, a palindromic word is a word that is spelled with the same letters in the same order in the forward and reverse directions, like ``racecar'' or ``mom''. You do not have to consider input with whitespace or punctuation for this problem. Ignore capitalization (i.e., ``Racecar'' and ``raceCar'' should be considered palindromes.
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\texttt{Enter a word: ridiculous}
+
+\texttt{\bfseries That is not a palindrome.}
+
+\texttt{Enter a word: Malayalam}
+
+\texttt{\bfseries That is a palindrome.}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+Remember that each problem solved correctly grants 1 Paul Point.
+
+\end{document}
