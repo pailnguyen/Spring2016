@@ -29,13 +29,16 @@ Readings labeled Week X should be read before Week X's lecture as preparation. I
 - [Lists][tp_lists], sections 10.1-10.6, 10.8-10.13 (section 10.7 is optional)
 {% endcomment %}
 
+## Week 3
+- [Lists][tp_lists], sections 10.1-10.13 (recommended!)
+
 # Slides
 
 These slides may be updated without warning in the future.
 
 - [Slides 01][slides01]
 - [Slides 02][slides02]
-
+- [Slides 03][slides03]
 
 
 [thinkpython]: http://greenteapress.com/thinkpython2/html/index.html
@@ -54,4 +57,4 @@ These slides may be updated without warning in the future.
 
 [slides01]: /Spring2016/files/slides/slides01.pdf
 [slides02]: /Spring2016/files/slides/slides02.pdf
-
+[slides03]: /Spring2016/files/slides/slides03.pdf
