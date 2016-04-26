@@ -1,0 +1,21 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch gh-pages
+# Your branch is up-to-date with 'origin/gh-pages'.
+#
+# Changes to be committed:
+#	modified:   exercises.md
+#
+# Untracked files:
+#	files/exercises/_minted-exercises03/
+#	files/exercises/bases.PNG
+#	files/exercises/ex03sols/
+#	files/exercises/exercises03.aux
+#	files/exercises/exercises03.log
+#	files/exercises/exercises03.out
+#	files/exercises/exercises03.pdf
+#	files/exercises/exercises03.synctex.gz
+#	files/exercises/exercises03.tex
+#
+

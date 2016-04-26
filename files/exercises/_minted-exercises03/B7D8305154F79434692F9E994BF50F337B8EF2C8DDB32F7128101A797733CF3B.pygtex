@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{UUU} \PYG{n}{F}      \PYG{n}{CUU} \PYG{n}{L}      \PYG{n}{AUU} \PYG{n}{I}      \PYG{n}{GUU} \PYG{n}{V}
+\PYG{n}{UUC} \PYG{n}{F}      \PYG{n}{CUC} \PYG{n}{L}      \PYG{n}{AUC} \PYG{n}{I}      \PYG{n}{GUC} \PYG{n}{V}
+\PYG{n}{UUA} \PYG{n}{L}      \PYG{n}{CUA} \PYG{n}{L}      \PYG{n}{AUA} \PYG{n}{I}      \PYG{n}{GUA} \PYG{n}{V}
+\PYG{n}{UUG} \PYG{n}{L}      \PYG{n}{CUG} \PYG{n}{L}      \PYG{n}{AUG} \PYG{n}{M}      \PYG{n}{GUG} \PYG{n}{V}
+\PYG{n}{UCU} \PYG{n}{S}      \PYG{n}{CCU} \PYG{n}{P}      \PYG{n}{ACU} \PYG{n}{T}      \PYG{n}{GCU} \PYG{n}{A}
+\PYG{n}{UCC} \PYG{n}{S}      \PYG{n}{CCC} \PYG{n}{P}      \PYG{n}{ACC} \PYG{n}{T}      \PYG{n}{GCC} \PYG{n}{A}
+\PYG{n}{UCA} \PYG{n}{S}      \PYG{n}{CCA} \PYG{n}{P}      \PYG{n}{ACA} \PYG{n}{T}      \PYG{n}{GCA} \PYG{n}{A}
+\PYG{n}{UCG} \PYG{n}{S}      \PYG{n}{CCG} \PYG{n}{P}      \PYG{n}{ACG} \PYG{n}{T}      \PYG{n}{GCG} \PYG{n}{A}
+\PYG{n}{UAU} \PYG{n}{Y}      \PYG{n}{CAU} \PYG{n}{H}      \PYG{n}{AAU} \PYG{n}{N}      \PYG{n}{GAU} \PYG{n}{D}
+\PYG{n}{UAC} \PYG{n}{Y}      \PYG{n}{CAC} \PYG{n}{H}      \PYG{n}{AAC} \PYG{n}{N}      \PYG{n}{GAC} \PYG{n}{D}
+\PYG{n}{UAA} \PYG{n}{Stop}   \PYG{n}{CAA} \PYG{n}{Q}      \PYG{n}{AAA} \PYG{n}{K}      \PYG{n}{GAA} \PYG{n}{E}
+\PYG{n}{UAG} \PYG{n}{Stop}   \PYG{n}{CAG} \PYG{n}{Q}      \PYG{n}{AAG} \PYG{n}{K}      \PYG{n}{GAG} \PYG{n}{E}
+\PYG{n}{UGU} \PYG{n}{C}      \PYG{n}{CGU} \PYG{n}{R}      \PYG{n}{AGU} \PYG{n}{S}      \PYG{n}{GGU} \PYG{n}{G}
+\PYG{n}{UGC} \PYG{n}{C}      \PYG{n}{CGC} \PYG{n}{R}      \PYG{n}{AGC} \PYG{n}{S}      \PYG{n}{GGC} \PYG{n}{G}
+\PYG{n}{UGA} \PYG{n}{Stop}   \PYG{n}{CGA} \PYG{n}{R}      \PYG{n}{AGA} \PYG{n}{R}      \PYG{n}{GGA} \PYG{n}{G}
+\PYG{n}{UGG} \PYG{n}{W}      \PYG{n}{CGG} \PYG{n}{R}      \PYG{n}{AGG} \PYG{n}{R}      \PYG{n}{GGG} \PYG{n}{G}
+\end{Verbatim}
