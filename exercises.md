@@ -10,10 +10,12 @@ Please do not post your solutions to these exercises online. You may email your 
 
 - [Exercises 01][ex01]: due April 8th
 - [Exercises 01 Problem 3 Example Solution][ex01samp]
-- [Exercises 02][ex02]: due April 22nd
+- [Exercises 02][ex02]: due April 29th
+- [Exercises 03][ex03]: due May 6th
 
 
 
 [ex01]: /Spring2016/files/exercises/exercises01.pdf
 [ex01samp]: /Spring2016/files/exercises/src01/exercises01
 [ex02]: /Spring2016/files/exercises/exercises02.pdf
+[ex03]: /Spring2016/files/exercises/exercises03.pdf
